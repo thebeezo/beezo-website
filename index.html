@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,11 +8,7 @@
 
 <title>Beezo | The Hive Never Sleeps</title>
 
-<meta name="description" content="Beezo is a Solana community-driven meme project. Build the hive before the launch.">
-
-<meta property="og:title" content="Beezo - The Hive Never Sleeps">
-<meta property="og:description" content="Join the Beezo hive and follow our journey on Solana.">
-<meta property="og:type" content="website">
+<meta name="description" content="Beezo is a community-driven meme project on Solana. Build the hive before the launch.">
 
 <style>
 
@@ -28,61 +25,118 @@ color:white;
 line-height:1.6;
 }
 
+
+/* HERO */
+
 header{
-height:100vh;
+
+min-height:100vh;
+
 display:flex;
+
 flex-direction:column;
+
 justify-content:center;
+
 align-items:center;
+
 text-align:center;
-padding:20px;
+
+padding:30px 20px;
+
+gap:15px;
+
 background:
 radial-gradient(circle,#332800,#000);
+
 }
+
+
+/* MASKOT */
 
 .bee img{
-font-size:140px;
+
+width:90px;
+
+height:auto;
+
+margin-bottom:5px;
+
 animation:float 3s infinite ease-in-out;
+
 }
 
+
 @keyframes float{
+
 0%,100%{
 transform:translateY(0);
 }
+
 50%{
-transform:translateY(-20px);
+transform:translateY(-15px);
 }
+
 }
+
+
+
+/* TITLE */
 
 h1{
+
 font-size:60px;
+
 color:#FFD54A;
-text-shadow:0 0 20px #FFD54A;
-margin-top:10px ;
+
+text-shadow:
+0 0 10px #FFD54A,
+0 0 30px #FFD54A;
+
 }
+
+
 
 h2{
+
 color:#FFD54A;
+
 margin-bottom:20px;
-font-size:35px;
+
+font-size:32px;
+
 }
 
+
+
 p{
+
 max-width:700px;
-margin:20px auto;
+
 font-size:18px;
+
+margin:10px auto;
+
 }
+
+
+
+/* BUTTON */
 
 .btn{
 
 display:inline-block;
-padding:15px 35px;
-margin:10px;
+
+padding:14px 30px;
+
+margin:8px;
 
 background:#FFD54A;
-color:#000;
+
+color:black;
 
 text-decoration:none;
+
 font-weight:bold;
 
 border-radius:50px;
@@ -91,55 +145,70 @@ transition:.3s;
 
 }
 
+
 .btn:hover{
 
-transform:scale(1.1);
+transform:scale(1.08);
 
 box-shadow:0 0 20px #FFD54A;
 
 }
 
 
+
+/* SECTION */
+
+
 section{
 
-padding:80px 20px;
+padding:70px 20px;
+
 text-align:center;
 
 }
 
 
+
 .box{
 
-max-width:900px;
+max-width:850px;
 
 margin:auto;
 
 background:#151515;
 
-padding:35px;
+padding:30px;
 
-border-radius:25px;
+border-radius:20px;
 
 border:1px solid #333;
 
 }
 
 
+
+/* ROADMAP */
+
+
 .card{
 
 display:inline-block;
 
-margin:15px;
+background:#111;
 
 padding:25px;
 
-background:#111;
+margin:10px;
 
 border-radius:20px;
 
-width:250px;
+width:220px;
 
 }
+
+
+
+/* FOOTER */
 
 
 footer{
@@ -148,12 +217,32 @@ padding:30px;
 
 text-align:center;
 
-background:#111;
-
 color:#888;
+
+background:#111;
 
 }
 
+
+
+
+@media(max-width:600px){
+
+h1{
+
+font-size:45px;
+
+}
+
+
+.bee img{
+
+width:70px;
+
+}
+
+
+}
 
 </style>
 
@@ -163,12 +252,16 @@ color:#888;
 <body>
 
 
+
 <header>
 
 
 <div class="bee">
+
 <img src="beezo.png" alt="Beezo Mascot">
+
 </div>
+
 
 
 <h1>BEEZO</h1>
@@ -181,22 +274,28 @@ Building the community before the launch.
 </p>
 
 
+
+<div>
+
 <a class="btn" href="https://x.com/BeezoHQ">
 Follow X
 </a>
 
 
 <a class="btn" href="https://t.me/BeezoOfficial">
-Join Telegram
+Telegram
 </a>
+
+</div>
+
 
 
 </header>
 
 
 
-<section>
 
+<section>
 
 <h2>About Beezo</h2>
 
@@ -207,11 +306,9 @@ Beezo is a community-driven meme project built on Solana.
 
 <br><br>
 
-Our mission is simple:
-
-Build the hive.
-Grow the community.
-Create something unforgettable.
+Our mission is to build the hive first,
+grow together,
+and create a strong community.
 
 </div>
 
@@ -220,8 +317,9 @@ Create something unforgettable.
 
 
 
-<section>
 
+
+<section>
 
 <h2>Roadmap</h2>
 
@@ -237,7 +335,6 @@ Build The Hive
 </div>
 
 
-
 <div class="card">
 
 🚀
@@ -247,7 +344,6 @@ Build The Hive
 Community Growth
 
 </div>
-
 
 
 <div class="card">
@@ -261,14 +357,13 @@ Token Launch
 </div>
 
 
-
 <div class="card">
 
 💎
 
 <h3>Phase 4</h3>
 
-Expand Ecosystem
+Ecosystem
 
 </div>
 
@@ -277,37 +372,10 @@ Expand Ecosystem
 
 
 
-<section>
-
-
-<h2>Why Beezo?</h2>
-
-
-<div class="box">
-
-
-🐝 Community First
-
-<br><br>
-
-⚡ Powered by Solana
-
-<br><br>
-
-🌎 Built Together With The Hive
-
-
-</div>
-
-
-</section>
-
-
 
 <section>
 
-
-<h2>Stay Connected</h2>
+<h2>Join The Hive</h2>
 
 
 <a class="btn" href="https://x.com/BeezoHQ">
@@ -326,24 +394,6 @@ Telegram
 
 </section>
 
-
-
-<section>
-
-
-<h2>Disclaimer</h2>
-
-
-<div class="box">
-
-Beezo is a community project.
-Cryptocurrency involves risks.
-Always do your own research.
-
-</div>
-
-
-</section>
 
 
 
